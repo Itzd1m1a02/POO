@@ -6,8 +6,8 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Principal {
-    public Principal() {
+public class Forca {
+    public Forca() {
         // Inicialização do vetor de palavras
         ArrayList<String> palavras = new ArrayList<>();
         
@@ -112,6 +112,6 @@ public class Principal {
 
     // Método principal que inicia o jogo
     public static void main(String[] args) {
-        new Principal();
+        new Forca();
     }
 }
